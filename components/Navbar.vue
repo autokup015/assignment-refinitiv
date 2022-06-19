@@ -23,11 +23,15 @@ export default {
 .main {
   padding: 20px 10px;
   background: rgb(128, 200, 255);
-  margin-bottom: 5px;
 }
 .btn {
   border-radius: 8px;
   background-color: white;
   color: black;
+}
+@media screen and (max-width: 600px) {
+  .main {
+    width: 600px;
+  }
 }
 </style>

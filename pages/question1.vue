@@ -107,4 +107,13 @@ export default {
 .div3 {
   width: 300px;
 }
+@media screen and (max-width: 600px) {
+  .div2 {
+    width: 100px;
+  }
+  .main {
+    width: 600px;
+    overflow-x: scroll;
+  }
+}
 </style>
